@@ -1,4 +1,4 @@
-const apikey = "include API key here";
+const apikey = "2c3c38bca05424958ba40bc88492cd05";
 
 const main = document.getElementById("main");
 const form = document.getElementById("form");
@@ -25,7 +25,7 @@ function addWeatherToPage(data) {
 
 const ctx = document.getElementById('weather-chart').getContext('2d');
     new Chart(ctx, {
-        type: 'bar',
+        type: 'histogram',
         data: {
             labels: ['Temperature (°C)', 'Humidity (%)'],
             datasets: [{

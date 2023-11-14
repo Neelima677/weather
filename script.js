@@ -25,7 +25,7 @@ function addWeatherToPage(data) {
 
 const ctx = document.getElementById('weather-chart').getContext('2d');
     new Chart(ctx, {
-        type: 'pie',
+        type: 'pie-chart',
         data: {
             labels: ['Temperature (°C)', 'Humidity (%)'],
             datasets: [{

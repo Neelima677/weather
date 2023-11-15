@@ -14,14 +14,14 @@ body {
 }
 
 ::placeholder {
-  color: #fff;
+  color: #65747b;
 }
 
 input {
   background-color: #575757;
   border: none;
   border-radius: 25px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(205,92,92);
   font-family: inherit;
   font-size: 1rem;
   padding: 1rem;
@@ -54,7 +54,7 @@ input:focus {
 }
 
 .card {
-  background: #000000b2;
+  background: #C0C0C0;
   width: 100%;
   max-width: 470px;
   height: 70%;
@@ -72,12 +72,12 @@ input:focus {
 }
 
 #weather-container {
-    background-color: #ffcaaf;
+    background-color: #808000;
     padding: 20px;
     border-radius: 5px;
     margin: 20px auto;
     width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(205,92,92);
 }
 
 h1 {
